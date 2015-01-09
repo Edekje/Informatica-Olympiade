@@ -6,5 +6,5 @@ stop = int(input())
 if(start%2 != 1):
     start += 1
 
-for i in range(start, stop, 2):
+for i in range(start, stop+1, 2):
     print(i)
